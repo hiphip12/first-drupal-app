@@ -843,4 +843,11 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
   'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
-$settings['config_sync_directory'] = 'sites/default/files/config_0oVxJ2B_XvOc9S2n6GayHBVv6d4FJCoUXxM5P3o-aZ5VlAagPDKVZUxJErolfdLAz68yUvdoTQ/sync';
+#$settings['config_sync_directory'] = 'sites/default/files/config_0oVxJ2B_XvOc9S2n6GayHBVv6d4FJCoUXxM5P3o-aZ5VlAagPDKVZUxJErolfdLAz68yUvdoTQ/sync';
+
+$settings['config_sync_directory']='../config/global';
+
+// Spit out verbal logging message
+$config['system.logging']['error_level'] = 'verbose';
+
+$settings['config_exclude_modules'] = ['devel','webprofiler'];

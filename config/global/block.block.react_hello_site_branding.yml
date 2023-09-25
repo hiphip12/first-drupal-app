@@ -1,0 +1,25 @@
+uuid: 50c5a8c4-6b66-42c3-a513-fbccdeb22ff7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - react_hello
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: react_hello_site_branding
+theme: react_hello
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Header changed (title)[site:name]'
+  label_display: visible
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

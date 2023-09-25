@@ -1,0 +1,23 @@
+uuid: 29e44136-f450-4d5e-80b4-53adc01b2149
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - field.storage.contact_message.field_mobile_no_
+id: contact_message.feedback.field_mobile_no_
+field_name: field_mobile_no_
+entity_type: contact_message
+bundle: feedback
+label: 'Mobile No.'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

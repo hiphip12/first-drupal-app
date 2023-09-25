@@ -1,0 +1,25 @@
+uuid: 6a7161b6-252a-4bd9-abb4-d6fcc9de8473
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.side-nav
+  module:
+    - system
+  theme:
+    - icecream_theme
+id: icecream_theme_sidenav
+theme: icecream_theme
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:side-nav'
+settings:
+  id: 'system_menu_block:side-nav'
+  label: 'Side Nav/ Recent Post'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

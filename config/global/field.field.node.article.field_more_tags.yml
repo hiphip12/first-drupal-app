@@ -1,0 +1,29 @@
+uuid: 77efbc3c-8a0f-494f-9f22-7a52ebcd8982
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_more_tags
+    - node.type.article
+    - taxonomy.vocabulary._more_tags_
+id: node.article.field_more_tags
+field_name: field_more_tags
+entity_type: node
+bundle: article
+label: 'More Tags'
+description: 'Add more tags to your content'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      _more_tags_: _more_tags_
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

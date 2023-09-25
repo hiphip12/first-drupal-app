@@ -1,0 +1,22 @@
+uuid: 4f4789c5-3d0a-49ce-8b9e-e3e818a14297
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - seven
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: seven_powered
+theme: seven
+region: header
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drup/Changed footer'
+  label_display: visible
+  provider: system
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 47feca4d-1fdc-4983-86b4-6d21b4e0739a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:868ffc91-d437-48ed-8180-74432f3ed877'
+  module:
+    - block_content
+  theme:
+    - react_hello
+id: react_hello_drupalisfun
+theme: react_hello
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:868ffc91-d437-48ed-8180-74432f3ed877'
+settings:
+  id: 'block_content:868ffc91-d437-48ed-8180-74432f3ed877'
+  label: 'Drupal is fun'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

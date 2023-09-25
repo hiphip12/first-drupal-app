@@ -1,0 +1,11 @@
+_core:
+  default_config_hash: IQjf_ytthngZTAk_MU8-74VecArWD3G5g0oEH6PM6GA
+toolbar_items:
+  - devel.cache_clear
+  - devel.route_info.item
+  - devel.admin_settings_link
+  - devel.event_info
+  - devel.phpinfo
+  - devel.route_info
+  - devel.theme_registry
+  - devel.session

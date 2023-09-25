@@ -1,0 +1,25 @@
+uuid: 3bd5a819-9429-4d78-8d1f-9270ce01b4bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.side-nav
+  module:
+    - system
+  theme:
+    - olivero
+id: sidenav
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'system_menu_block:side-nav'
+settings:
+  id: 'system_menu_block:side-nav'
+  label: 'Side Nav/ Recent Post'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

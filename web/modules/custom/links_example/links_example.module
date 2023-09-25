@@ -1,0 +1,18 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+ 
+
+/**
+ * Implements hook_help().
+ */
+function links_example_help($route_name, RouteMatchInterface $route_match) {
+    switch ($route_name) {
+      case 'help.page.links_example':
+        $output = '';
+        $output .= '<h3>' . t('About') . '</h3>';
+        $output .= '<p>' . t('This is the third custom module.') . '</p>';
+        return $output;
+      default:
+    }
+  }

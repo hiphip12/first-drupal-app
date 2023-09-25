@@ -1,0 +1,8 @@
+name: React Counter Group Work
+description: "Loads the counter from react"
+type: theme
+base theme: bootstrap
+core_version_requirement: ^9 || ^10
+
+libraries:
+  - react_counter/react_app

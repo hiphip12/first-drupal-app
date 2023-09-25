@@ -1,0 +1,25 @@
+uuid: 7804ccf4-79bf-4395-bcdc-1f7868ce80fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.side-nav
+  module:
+    - system
+  theme:
+    - react_hello
+id: react_hello_sidenav
+theme: react_hello
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:side-nav'
+settings:
+  id: 'system_menu_block:side-nav'
+  label: 'Side Nav/ Recent Post'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,5 @@
+name: 'my_generated_module'
+type: module
+description: 'A generated module which will go to thrash'
+package: Custom
+core_version_requirement: ^10

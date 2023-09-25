@@ -1,0 +1,25 @@
+uuid: 4d44e8dc-d499-4b69-a1b7-a6347455c0f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.side-nav
+  module:
+    - system
+  theme:
+    - bartik
+id: bartik_sidenav
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:side-nav'
+settings:
+  id: 'system_menu_block:side-nav'
+  label: 'Side Nav/ Recent Post'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

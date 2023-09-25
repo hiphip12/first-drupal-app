@@ -17,13 +17,18 @@
     "require": {
         "composer/installers": "^2.0",
         "drupal/adminimal_theme": "^1.7",
+        "drupal/bartik": "^1.0",
+        "drupal/basic_crud_operation_in_drupal_sites": "^1.0",
         "drupal/blog": "^3.1",
         "drupal/bootstrap": "^3.29",
+        "drupal/content_lock": "^2.3",
         "drupal/core-composer-scaffold": "^10.0",
         "drupal/core-project-message": "^10.0",
         "drupal/core-recommended": "^10.0",
         "drupal/devel": "^5.0",
+        "drupal/ds": "^3.15",
         "drupal/pathauto": "^1.11",
+        "drupal/restui": "^1.21",
         "drupal/webprofiler": "^10.1",
         "drush/drush": "^12.1"
     },
